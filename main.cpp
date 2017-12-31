@@ -5,7 +5,6 @@
 #include <conio.h>
 #include <mingw.thread.h>
 
-
 using namespace std;
 void ShowConsoleCursor(bool showFlag);
 void gotoxy (int x, int y);
