@@ -113,9 +113,6 @@ void displayUp(int x, int y)
     cout << " " << " " << " " << " " << " ";
 
 
-
-
-
     gotoxy(x,y);
     cout << " ";
 
@@ -124,9 +121,6 @@ void displayUp(int x, int y)
 
     gotoxy(x,y+2);
     cout << " ";
-
-
-
 
     gotoxy(x+4,y);
     cout << " ";
@@ -150,9 +144,6 @@ void displayDown(int x, int y)
 
     gotoxy(x-1,y+2);
     cout << " ";
-
-
-
 
     gotoxy(x,y);
     cout << "X" << " " << "X";
@@ -185,8 +176,6 @@ void displayLeft(int x, int y)
     gotoxy(x-2,y+2);
     cout << " ";
 
-
-
     gotoxy(x-1,y);
 	cout << " " << "X" << "X";
 	gotoxy(x+2,y);
@@ -211,15 +200,12 @@ void displayRight(int x, int y)
     gotoxy(x-1,y+3);
     cout << " " << " " << " " << " " << " ";
 
-
-
     gotoxy(x,y);
 	cout << "X" << "X" << " ";
     gotoxy(x-1,y);
     cout << " ";
 
-
-	gotoxy(x,y+1);
+    gotoxy(x,y+1);
 	cout << " " << " " << "X";
     gotoxy(x-1,y+1);
     cout << " ";
@@ -227,8 +213,6 @@ void displayRight(int x, int y)
 	cout << "X" << "X" << " ";
 	gotoxy(x-1,y+2);
     cout << " ";
-
-
 }
 
 void bullet(int x, int y)
